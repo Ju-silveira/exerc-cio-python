@@ -1,0 +1,5 @@
+n = str(input('digite augo :'))
+print(f'e numerico {n.isnumeric()}')
+print(f'e alfabetico {n.isalpha()}')
+print(f'esta em letra minuscula {n.islower()}')
+print(f'esta em letra maiuscula {n.isupper()}')
