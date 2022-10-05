@@ -1,0 +1,5 @@
+nome = str(input('ola mechamo sara e você ? :'))
+n = int(input(f'ok {nome} digite um numero inteiro para que eu o analize :'))
+n1 = n - 1
+n2 = n + 1
+print(f'{nome} analizando o numero {n} vi que seu antesesor e {n1} e seu susesor e {n2}')
