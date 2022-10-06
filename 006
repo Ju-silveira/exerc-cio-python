@@ -2,5 +2,7 @@ from math import sqrt
 nome = str(input('ola mechamo sara cual e seu nome ?:'))
 n = int(input(f'{nome} digite um numero :'))
 print(f'{nome} o dobro de {n} é {n+n}')
-print(f'{nome} o triplo de {n} é {n*3}')
-print(f'{nome} a raiz cuadrada de {n} é {sqrt(n)}')
+print(f'e o triplo de {n} é {n*3}')
+print(f'e a raiz cuadrada de {n} é {sqrt(n)}')
+Print(f'obrigado {nome} e voute sempre que presisar :)')
+
