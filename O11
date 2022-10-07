@@ -1,0 +1,6 @@
+alt = float(input('cual e a altura ?:'))
+lar = float(input('cual e a largura ?:'))
+are = alt * lar
+lit = are / 2
+print(f' a dimensão de {alt}m X {lar}m tem a area de {are}m')
+print(f'para pintar a area de {are}m é presiso de {lit}l de tinta')
