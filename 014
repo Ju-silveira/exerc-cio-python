@@ -1,3 +1,3 @@
-c = float(input('digite a tempero pra eu comverter :'))
+c = float(input('digite a temperatura em °C para eu comverter para °F :'))
 f = (c*9/5)+32
-print(f'comvertemdo {c}°C fica {f}°F')
+print(f'comvertemdo de {c}°C para °F fica {f}°F')
