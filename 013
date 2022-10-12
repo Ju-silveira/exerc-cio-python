@@ -1,3 +1,3 @@
-sala = float(input('qual o salario do empregado :'))
+sala = float(input('qual o salário do empregado :'))
 aume = (sala * 15) / 100
-print(f'o salario de {sala} com aumento de 15% fica {sala + aume}')
+print(f'o salário de {sala} com aumento de 15% fica {sala + aume}')
