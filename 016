@@ -1,0 +1,3 @@
+from math import trunc
+n = float(input('digite um valor :'))
+print(f'onumero digitado foi {n} e sua porção em teira é {trunc(n)}')
