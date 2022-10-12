@@ -1,5 +1,5 @@
-alt = float(input('cual e a altura ?:'))
-lar = float(input('cual e a largura ?:'))
+alt = float(input('qual é a altura ?:'))
+lar = float(input('qual é a largura ?:'))
 are = alt * lar
 lit = are / 2
 print(f' a dimensão de {alt}m X {lar}m tem a area de {are}m')
