@@ -1,3 +1,3 @@
-real = float(input('guantos dinhero você tem ?:'))
+real = float(input('guanto dinhero você tem ?:'))
 dolar = real / 5.0
-print(f'com {real:.2f}R$ vose pode comprar {dolar}us')
+print(f'com {real:.2f}R$ você pode comprar {dolar}us')
