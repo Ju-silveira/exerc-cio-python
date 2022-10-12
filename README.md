@@ -1,4 +1,5 @@
-# exerc-cio-python e um repositorio para 
-Colocar meus eser cicios que eu faso coisas 
-Bobas e faseis apenas para praticar um pouco
-Mais a linguagem python 
+# exerc-cio-python 
+é um repositorio para colocar meus 
+exercicios da Linguagen python que 
+estou estudando 
+
