@@ -1,5 +1,5 @@
 from math import sqrt
-nome = str(input('olá mechamo sara cual e seu nome ?:'))
+nome = str(input('olá mechamo sara qual e seu nome ?:'))
 n = int(input(f'{nome} digite um numero :'))
 print(f'{nome} o dobro de {n} é {n+n}')
 print(f'e o triplo de {n} é {n*3}')
