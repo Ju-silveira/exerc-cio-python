@@ -1,3 +1,3 @@
-preso = float(input('ola digite o preso do produto :'))
+preso = float(input('olá digite o preso do produto :'))
 des = (preso * 5) / 100
 print(f'o produto com o descomto de 5% fica {preso - des}')
