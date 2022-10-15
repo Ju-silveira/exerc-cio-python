@@ -1,0 +1,6 @@
+import math
+n = float(input('digite o angulo desejado :'))
+an = float(math.radians(n))
+print(f'o coseno é {math.cos(an):.2f}')
+print(f'o seno é {math.sin(an):.2f}')
+print(f'a tangemte é {math.tan(an):.2f}')
