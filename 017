@@ -1,0 +1,6 @@
+from math import hypot
+n = ('CALCULANDO HIPOTENUSA')
+print(f'{n:-^40}')
+cat = float(input('cateto oposto :'))
+adi = float(input('cateto adijasente :'))
+print(f'calculando os catetos a hipotenusa é {hypot(cat,adi):.2f}')
