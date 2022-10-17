@@ -1,0 +1,4 @@
+from random import randint
+n = (str(input('primeiro aluno? :')),str(input('segundo aluno? :')),str(input('terseiro aluno? :')),str(input('quarto aluno? :')))
+n1 = randint(0,3)
+print(f'o aluno sorteado foi o {n[n1]}')
