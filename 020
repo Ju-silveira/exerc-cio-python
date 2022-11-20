@@ -1,0 +1,8 @@
+from random import shuffle
+n = []
+n.append(str(input('primeiro aluno ? :')))
+n.append(str(input('segundo aluno ?:')))
+n.append(str(input('terseiro aluno ?: ')))
+n.append(str(input('quarto aluno ?:')))
+shuffle(n)
+print(f'lista de forma aleatoria {n}')
