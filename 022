@@ -1,0 +1,7 @@
+n = str(input('qual é seu nome inteiro ?:'))
+print(f'nome em mayúsculas {n.upper().strip()}')
+print(f'nome em minúsculos {n.lower().strip()}')
+n1 = n.strip().count(' ')
+print(f'o nome tem {len(n.strip()) - n1}')
+n2 = n.split()
+print(f'o primeiro nome tem {len(n2[0])}')
