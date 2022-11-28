@@ -1,0 +1,10 @@
+n =str(input('digite um numero :'))
+n = '1000000' + n
+a = len(n)
+print('o numero digitado tem ')
+print(f'unidades :{n[a-1]}')
+print(f'dezenas :{n[a-2]}')
+print(f'semtena :{n[a-3]}')
+print(f'milhar :{n[a-4]}')
+print(f'dezena de milhar :{n[a-5]}')
+print(f'semtena de milhar :{n[a-6]}')
