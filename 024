@@ -1,0 +1,11 @@
+n = str(input('em que sidade Você naseu ?:')).lower().strip()
+
+#se não comesar com santo a sidade 
+#o resultado sera False
+
+a = n.find('santo')
+if a > -1 :
+  print('santo' in n)
+else :
+   print('false')
+  
