@@ -1,0 +1,52 @@
+from random import randint
+from time import sleep
+op = ('papel','pedra','tesoura')
+print('''fasa sua escolha
+[0]papel
+[1]pedra
+[2]tesoura''')
+sleep(1)
+while True :
+ jog = str(input('fasa sua jogada :')).upper().strip()
+ if jog == '0' or jog == 'PAPEL':
+   jog = 0
+   break
+ if jog == '1' or jog == 'PEDRA':
+   jog = 1
+   break
+ if jog == '2' or jog == 'TESOURA':
+   jog = 2
+   break
+comp = randint(0,2)
+sleep(1)
+print('JO')
+sleep(1)
+print('KEN')
+sleep(1)
+print('PO')
+print(30*'=')
+print(f'jogador jogou {op[jog]}')
+print(f'computador jogou {op[comp]}')
+print(30*'=')
+if comp == 0:
+  if jog == 0:
+    print('EMPATE')
+  if jog == 1:
+    print('VEMSI')
+  if jog == 2:
+    print('PERDI')
+if comp == 1:
+  if jog == 0:
+    print('PERDI')
+  if jog == 1:
+    print('EMPATE')
+  if jog == 2:
+    print('VEMSI')
+if comp == 2:
+  if jog == 0:
+    print('VEMSI')
+  if jog == 1:
+    print('PERDI')
+  if jog == 2:
+    print('EMPATE')
+  
